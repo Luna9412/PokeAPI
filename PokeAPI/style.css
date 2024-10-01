@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/seven-segment');
+body {
+  font-family: 'Seven Segment', sans-serif; 
+  background-color: black;
+  color: white;
+}
+.card {
+  background-image: url(./img/background-card.png);
+}
+.img {
+  max-width: 286px;
+  max-height: 286px;
+  object-fit: fill;
+}
+.card-body {
+  font-family: 'Seven Segment', sans-serif; 
+  background-color: black;
+  color: white;
+}
+.card-title {
+  font-family: 'Seven Segment', sans-serif; 
+  text-align: center;
+  font-weight: bold;
+  color: rgb(56, 47, 179);
+}
+.list-group-item {
+  font-family: 'Seven Segment', sans-serif; 
+  text-align: center;
+  background-color: black;
+  opacity: 100%;
+  color: white;
+}
+.col {
+  max-width: fit-content;
+}
